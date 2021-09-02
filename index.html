@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Exemple 1</title>
+        <link rel='stylesheet'  href='style.css' type='text/css'  />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="div_bootstrap">
+            
+        </div>
+        <table border="1" style="width: 100%;">
+            <tr>
+                <td style="height: 200px;">
+                <table border="1" style="height: 200px;width: 100%;">
+                    <tr>
+                        <td style="width: 200px;">
+                            <img src="logo.jpg" style="width: 100%;border: solid 1px black;">
+                        </td>
+                        <td>
+                            <ul class="ultop">
+                                <li class="litop">
+                                   <a href="index.html" >Accueil</a> 
+                                </li>
+                                <li class="litop">
+                                   <a href="page1.html">Page1</a> 
+                                </li>
+                                <li class="litop">
+                                    <a href="page2.html">Page2</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="height:700px ;">
+                   
+                    <form action="page2.html" >
+                        <input type="text" name="txt_var">
+                        <input type="submit" value="Envoyer">
+                    </form>
+                      <table>
+                          <tr>
+                              <td>
+                                  <label>X:</label>
+                                  <input value="10" onblur="Calculer()" type="text" id="txt_x">
+                              </td>
+                              <td>
+                                <label>Y:</label>
+                                <input value="5" type="text" onblur="Calculer()" id="txt_y">
+                            </td>
+                           
+                          </tr>
+                          <tr>
+                             
+                              <td>
+                                <label id="label_result">Result:</label>
+                                <input  type="text" id="txt_result" >
+                            </td>
+                          </tr>
+                      </table>
+                  
+                </td>
+            </tr>
+        </table>
+       
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>

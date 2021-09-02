@@ -1,0 +1,27 @@
+div{
+    border: black solid 1px;
+}
+#top div{
+    height: 200px;
+}
+.litop{
+    width: 50px;border: solid 1px black;padding: 20px;
+}
+.ultop{
+    list-style: none;display: flex;
+}
+a{
+    color: red !important;
+}
+#div_bootstrap{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+}
+@media(max-width: 1200px and min-width: 600px){
+    #div_bootstrap{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(66, 64, 64);
+    } 
+}
